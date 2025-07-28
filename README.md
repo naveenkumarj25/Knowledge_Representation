@@ -1,5 +1,4 @@
 # `KNOWLEDGE REPRESENTATION`
-Deployed Web URL - 
 
 ## Table of Contents
 1. [Objective](#objective)
@@ -152,6 +151,6 @@ Comprehensive data on Melbourne's real estate market, including property charact
 
 8. Make sure to `Reset Application` and refresh the page before uploading a new dataset.
 
-9. You can even try out our deployed application [Live Demo]
+9. You can even try out our deployed application.
 
 10. Any queries or suggestions can be raised as an issue in the repository.
