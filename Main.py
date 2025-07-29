@@ -3,12 +3,12 @@ import shutil
 import streamlit as st
 
 st.set_page_config(
-    page_title="KnowRep",
+    page_title="Data Sensei",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/19Naveen/Knowledge_Representation/blob/Master/README.md',
+        'Get Help': 'https://github.com/naveenkumarj25/Knowledge_Representation/blob/main/README.md',
         'About': "# One spot to know everything about your CSV!"
     }
 )
@@ -34,8 +34,8 @@ Tools.make_folders()
 
 # Sidebar
 with st.sidebar:
-    st.image("https://i.ibb.co/vx7frqM8/purple-artificial-intelligence-technology-circuit-file-free-png.webp", width=200, caption="AI Image")
-    st.title("KnowRep")
+    st.image("https://i.pinimg.com/1200x/07/85/c2/0785c2fdbf78b20efb6d5c952a3b6d9c.jpg", width=200, caption="AI Image")
+    st.title("Data Sensei")
     st.session_state.api_key = st.text_input("Enter your API Key", type="password", value=st.session_state.api_key)
     isExampleFileSelected = st.toggle("Use Example File", value=False, key="example_file_toggle")
     uploaded_file = None
@@ -79,7 +79,7 @@ st.markdown("# **KNOWLEDGE REPRESENTATION ON STRUCTURED DATASETS**")
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Insights Generation", "Chat with CSV", "ML Prediction"])
 
 with tab1:
-    st.header("Welcome to KnowRep")
+    st.header("Welcome to Data Sensei")
     st.markdown("""
         1. Enter your Gemini API key in the sidebar. [Click here to obtain one.](https://aistudio.google.com/app/apikey)
         2. Upload a CSV file.
