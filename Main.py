@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Data Sensei",
-    page_icon="🔍",
+    page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
