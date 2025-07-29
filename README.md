@@ -1,5 +1,7 @@
 # `KNOWLEDGE REPRESENTATION`
 
+Deployed Web URL - https://knowledgerepresentation.streamlit.app
+
 ## Table of Contents
 1. [Objective](#objective)
 2. [Problem Description](#problem-description)
@@ -142,7 +144,7 @@ Comprehensive data on Melbourne's real estate market, including property charact
 
 5. The application will open in the default browser and you can start using it.
 <div align="center">
-    <img src = "reports/img/main_page.png" height = 80% width = 80% title = "Main Page" >
+    <img src = "reports/img/UI_screenshot.png" height = 80% width = 80% title = "Main Page" >
 </div>
 
 6. You need to get your free gemini API key from [here](https://aistudio.google.com/app/apikey) and enter it in the app's sidebar and then upload the dataset (ie., .csv file).
