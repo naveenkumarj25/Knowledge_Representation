@@ -34,7 +34,7 @@ Tools.make_folders()
 
 # Sidebar
 with st.sidebar:
-    st.image("https://i.pinimg.com/1200x/f2/ee/25/f2ee25161a920fe0cbbbefdda8c0f934.jpg", width=200)
+    st.image("https://res.cloudinary.com/dgrhfkocl/image/upload/v1753768271/f2ee25161a920fe0cbbbefdda8c0f934-removebg-preview_lwno7p.png", width=200)
     st.title("Data Sensei")
     st.session_state.api_key = st.text_input("Enter your API Key", type="password", value=st.session_state.api_key)
     isExampleFileSelected = st.toggle("Use Example File", value=False, key="example_file_toggle")
