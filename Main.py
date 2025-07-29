@@ -34,7 +34,7 @@ Tools.make_folders()
 
 # Sidebar
 with st.sidebar:
-    st.image("https://i.pinimg.com/1200x/07/85/c2/0785c2fdbf78b20efb6d5c952a3b6d9c.jpg", width=200, caption="AI Image")
+    st.image("https://i.pinimg.com/1200x/f2/ee/25/f2ee25161a920fe0cbbbefdda8c0f934.jpg", width=200)
     st.title("Data Sensei")
     st.session_state.api_key = st.text_input("Enter your API Key", type="password", value=st.session_state.api_key)
     isExampleFileSelected = st.toggle("Use Example File", value=False, key="example_file_toggle")
@@ -219,6 +219,3 @@ with tab4:
             st.markdown(f"**Prediction:** {st.session_state.result}")
     else:
         st.warning("Please upload and process a CSV file first.")
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("Developed by Bit Bandits")
